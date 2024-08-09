@@ -1,0 +1,21 @@
+shop-inventory-system/
+│
+├── config/
+│   └── db.js             # Database connection setup
+│
+├── controllers/
+│   ├── inventoryController.js # Controller for handling inventory operations
+│   └── billController.js      # Controller for handling bill operations
+│
+├── models/
+│   ├── item.js           # Schema for inventory items
+│   └── bill.js           # Schema for bills and bill items
+│
+├── routes/
+│   ├── inventoryRoutes.js # Routes for inventory CRUD operations
+│   └── billRoutes.js      # Routes for bill CRUD operations
+│
+├── .env                   # Environment variables
+├── .gitignore             # Git ignore file
+├── server.js              # Entry point for the Node.js server
+└── package.json           # Dependencies and scripts
