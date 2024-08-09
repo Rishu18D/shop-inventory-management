@@ -50,6 +50,7 @@ PORT=5000
 npm start
 
 ### Folder Structure
+```
 **shop-inventory-management/
 │
 ├── config/
@@ -71,6 +72,7 @@ npm start
 ├── .gitignore             # Files and directories to be ignored by Git
 ├── server.js              # Main server file
 └── package.json           # Project dependencies and scripts
+```
 **
 ### Instructions Summary:
 1. **Write the README.md file:** The above template should be used as your project's README.md.
