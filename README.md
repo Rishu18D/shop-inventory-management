@@ -43,15 +43,17 @@ This project is a backend system built to manage the inventory and sales transac
 npm install
 ```
 ### Setup .env file
+```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
+```
 
 ### Start the Application
 npm start
 
 ### Folder Structure
 ```
-**shop-inventory-management/
+shop-inventory-management/
 │
 ├── src/
 │   ├── config/
@@ -76,7 +78,6 @@ npm start
 └── package.json                # Project dependencies and scripts
 
 ```
-**
 ### Instructions Summary:
 1. **Write the README.md file:** The above template should be used as your project's README.md.
 2. **Maintain code quality:** Ensure your code is clean, well-commented, and easy to understand.
