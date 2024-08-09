@@ -53,25 +53,28 @@ npm start
 ```
 **shop-inventory-management/
 │
-├── config/
-│   └── db.js             # MongoDB connection setup
+├── src/
+│   ├── config/
+│   │   └── db.js             # MongoDB connection setup
+│   │
+│   ├── controllers/
+│   │   ├── inventoryController.js  # Handles inventory CRUD operations
+│   │   └── billController.js       # Handles bill creation and retrieval
+│   │
+│   ├── models/
+│   │   ├── item.js           # Schema definition for inventory items
+│   │   └── bill.js           # Schema definition for bills
+│   │
+│   ├── routes/
+│   │   ├── inventoryRoutes.js # Routes for inventory-related API calls
+│   │   └── billRoutes.js      # Routes for bill-related API calls
+│   │
+│   └── server.js              # Main server file
 │
-├── controllers/
-│   ├── inventoryController.js  # Handles inventory CRUD operations
-│   └── billController.js       # Handles bill creation and retrieval
-│
-├── models/
-│   ├── item.js           # Schema definition for inventory items
-│   └── bill.js           # Schema definition for bills
-│
-├── routes/
-│   ├── inventoryRoutes.js # Routes for inventory-related API calls
-│   └── billRoutes.js      # Routes for bill-related API calls
-│
-├── .env                   # Environment variables (not to be shared in production)
-├── .gitignore             # Files and directories to be ignored by Git
-├── server.js              # Main server file
-└── package.json           # Project dependencies and scripts
+├── .env                        # Environment variables (not to be shared in production)
+├── .gitignore                  # Files and directories to be ignored by Git
+└── package.json                # Project dependencies and scripts
+
 ```
 **
 ### Instructions Summary:
